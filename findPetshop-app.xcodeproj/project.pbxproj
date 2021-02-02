@@ -9,13 +9,17 @@
 /* Begin PBXBuildFile section */
 		D82CE70825C98E5000B7BC49 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D82CE70725C98E5000B7BC49 /* AppDelegate.swift */; };
 		D82CE70A25C98E5000B7BC49 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D82CE70925C98E5000B7BC49 /* SceneDelegate.swift */; };
-		D82CE70C25C98E5000B7BC49 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D82CE70B25C98E5000B7BC49 /* ViewController.swift */; };
-		D82CE70F25C98E5000B7BC49 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D82CE70D25C98E5000B7BC49 /* Main.storyboard */; };
 		D82CE71225C98E5000B7BC49 /* findPetshop_app.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D82CE71025C98E5000B7BC49 /* findPetshop_app.xcdatamodeld */; };
 		D82CE71425C98E5200B7BC49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D82CE71325C98E5200B7BC49 /* Assets.xcassets */; };
 		D82CE71725C98E5200B7BC49 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D82CE71525C98E5200B7BC49 /* LaunchScreen.storyboard */; };
 		D82CE72225C98E5300B7BC49 /* findPetshop_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D82CE72125C98E5300B7BC49 /* findPetshop_appTests.swift */; };
 		D82CE72D25C98E5300B7BC49 /* findPetshop_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D82CE72C25C98E5300B7BC49 /* findPetshop_appUITests.swift */; };
+		D82CE74425C9908B00B7BC49 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D82CE74325C9908B00B7BC49 /* Coordinator.swift */; };
+		D82CE74925C990D600B7BC49 /* ViewCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = D82CE74825C990D600B7BC49 /* ViewCode.swift */; };
+		D82CE75725C9922800B7BC49 /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D82CE75625C9922800B7BC49 /* MainCoordinator.swift */; };
+		D82CE75C25C992E800B7BC49 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D82CE75B25C992E800B7BC49 /* MainViewController.swift */; };
+		D82CE76125C9935E00B7BC49 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D82CE76025C9935E00B7BC49 /* MainViewModel.swift */; };
+		D82CE76625C9965300B7BC49 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D82CE76525C9965300B7BC49 /* MainView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +43,6 @@
 		D82CE70425C98E5000B7BC49 /* findPetshop-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "findPetshop-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D82CE70725C98E5000B7BC49 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D82CE70925C98E5000B7BC49 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D82CE70B25C98E5000B7BC49 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D82CE70E25C98E5000B7BC49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D82CE71125C98E5000B7BC49 /* findPetshop_app.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = findPetshop_app.xcdatamodel; sourceTree = "<group>"; };
 		D82CE71325C98E5200B7BC49 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D82CE71625C98E5200B7BC49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +53,12 @@
 		D82CE72825C98E5300B7BC49 /* findPetshop-appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "findPetshop-appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D82CE72C25C98E5300B7BC49 /* findPetshop_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = findPetshop_appUITests.swift; sourceTree = "<group>"; };
 		D82CE72E25C98E5300B7BC49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D82CE74325C9908B00B7BC49 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		D82CE74825C990D600B7BC49 /* ViewCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewCode.swift; sourceTree = "<group>"; };
+		D82CE75625C9922800B7BC49 /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
+		D82CE75B25C992E800B7BC49 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		D82CE76025C9935E00B7BC49 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		D82CE76525C9965300B7BC49 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +109,9 @@
 		D82CE70625C98E5000B7BC49 /* findPetshop-app */ = {
 			isa = PBXGroup;
 			children = (
-				D82CE70725C98E5000B7BC49 /* AppDelegate.swift */,
-				D82CE70925C98E5000B7BC49 /* SceneDelegate.swift */,
-				D82CE70B25C98E5000B7BC49 /* ViewController.swift */,
-				D82CE70D25C98E5000B7BC49 /* Main.storyboard */,
+				D82CE73F25C98EB600B7BC49 /* Configuration */,
+				D82CE73E25C98EAE00B7BC49 /* Protocols */,
+				D82CE73D25C98EA100B7BC49 /* Scenes */,
 				D82CE71325C98E5200B7BC49 /* Assets.xcassets */,
 				D82CE71525C98E5200B7BC49 /* LaunchScreen.storyboard */,
 				D82CE71825C98E5200B7BC49 /* Info.plist */,
@@ -129,6 +136,83 @@
 				D82CE72E25C98E5300B7BC49 /* Info.plist */,
 			);
 			path = "findPetshop-appUITests";
+			sourceTree = "<group>";
+		};
+		D82CE73D25C98EA100B7BC49 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				D82CE74D25C9918500B7BC49 /* Main */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		D82CE73E25C98EAE00B7BC49 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				D82CE74325C9908B00B7BC49 /* Coordinator.swift */,
+				D82CE74825C990D600B7BC49 /* ViewCode.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		D82CE73F25C98EB600B7BC49 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				D82CE70925C98E5000B7BC49 /* SceneDelegate.swift */,
+				D82CE70725C98E5000B7BC49 /* AppDelegate.swift */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		D82CE74D25C9918500B7BC49 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				D82CE75225C991EA00B7BC49 /* Coordinator */,
+				D82CE75125C991CE00B7BC49 /* Model */,
+				D82CE75025C991C600B7BC49 /* ViewModel */,
+				D82CE74E25C9919400B7BC49 /* Controller */,
+				D82CE74F25C9919A00B7BC49 /* View */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		D82CE74E25C9919400B7BC49 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D82CE75B25C992E800B7BC49 /* MainViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D82CE74F25C9919A00B7BC49 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D82CE76525C9965300B7BC49 /* MainView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D82CE75025C991C600B7BC49 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				D82CE76025C9935E00B7BC49 /* MainViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		D82CE75125C991CE00B7BC49 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D82CE75225C991EA00B7BC49 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				D82CE75625C9922800B7BC49 /* MainCoordinator.swift */,
+			);
+			path = Coordinator;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,7 +320,6 @@
 			files = (
 				D82CE71725C98E5200B7BC49 /* LaunchScreen.storyboard in Resources */,
 				D82CE71425C98E5200B7BC49 /* Assets.xcassets in Resources */,
-				D82CE70F25C98E5000B7BC49 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,10 +344,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D82CE75C25C992E800B7BC49 /* MainViewController.swift in Sources */,
+				D82CE76625C9965300B7BC49 /* MainView.swift in Sources */,
 				D82CE71225C98E5000B7BC49 /* findPetshop_app.xcdatamodeld in Sources */,
-				D82CE70C25C98E5000B7BC49 /* ViewController.swift in Sources */,
+				D82CE75725C9922800B7BC49 /* MainCoordinator.swift in Sources */,
+				D82CE74425C9908B00B7BC49 /* Coordinator.swift in Sources */,
 				D82CE70825C98E5000B7BC49 /* AppDelegate.swift in Sources */,
 				D82CE70A25C98E5000B7BC49 /* SceneDelegate.swift in Sources */,
+				D82CE74925C990D600B7BC49 /* ViewCode.swift in Sources */,
+				D82CE76125C9935E00B7BC49 /* MainViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,14 +388,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		D82CE70D25C98E5000B7BC49 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D82CE70E25C98E5000B7BC49 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		D82CE71525C98E5200B7BC49 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
