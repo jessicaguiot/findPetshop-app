@@ -12,7 +12,8 @@ class MainViewController: UIViewController {
     var viewModel: MainViewModel
     var mainCoordinator: MainCoordinator? 
     
-    let contentView = MainView()
+    let mainContentView = MainView()
+    
     
     override func viewDidLoad() {
         
@@ -21,7 +22,8 @@ class MainViewController: UIViewController {
     
     override func loadView() {
         
-        self.view = contentView
+        self.view = mainContentView
+        setupNavigationBar()
     }
     
     init(viewModel: MainViewModel) {
@@ -32,5 +34,18 @@ class MainViewController: UIViewController {
     
     required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
+    }
+    
+    private func setupNavigationBar() {
+        
+        navigationController?.navigationBar.prefersLargeTitles      = true
+        navigationController?.navigationBar.topItem?.title          = "Petshops"
+        
+        let mapButton                                               = UIBarButtonItem(image: UIImage(systemName: "map"), landscapeImagePhone: nil, style: .plain, target: self, action: nil)
+        navigationItem.rightBarButtonItem                           = mapButton
+        
+        //add search bar item
+        //let search = UISearchController(searchResultsController: nil)
+        //self.navigationItem.searchController = search
     }
 }
